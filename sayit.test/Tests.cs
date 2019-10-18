@@ -33,13 +33,13 @@ namespace Tests
         [Test]
         public void CanLookAndSay()
         {
-            Assert.AreEqual("312211", LookAndSay.Say(1, 6));
+            Assert.AreEqual("11131221133112132113212221", LookAndSay.Say(1, 11));
         }
 
         [Test]
         public void CanLookAndSayStartingWith9()
         {
-            Assert.AreEqual("1113122119", LookAndSay.Say(9, 6));
+            Assert.AreEqual("132113213221133112132123222119", LookAndSay.Say(9, 11));
         }
     }
 }
