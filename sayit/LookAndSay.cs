@@ -11,16 +11,12 @@ namespace sayit
                 return ("","");
             var lastChar = str[0];
             var count = 0;
-            for (var i = 0; i< str.Length; i++)
+            for (var i = 0; i < str.Length; i++)
             {
                 if (str[i] == lastChar)
-                {
                     count++;
-                }
                 else
-                {
                     break;
-                }
             }
             return (count.ToString() + lastChar.ToString(),str.Substring(count)); 
         }
