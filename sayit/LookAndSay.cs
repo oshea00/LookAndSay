@@ -5,7 +5,7 @@ namespace sayit
 {
     public class LookAndSay
     {
-        public static (string,string) NextSequence(string str)
+        protected static (string,string) NextSequence(string str)
         {
             if (string.IsNullOrEmpty(str))
                 return ("","");
@@ -21,7 +21,7 @@ namespace sayit
             return (count.ToString() + lastChar.ToString(),str.Substring(count)); 
         }
 
-        public static string ExpandSequence(string str)
+        protected static string ExpandSequence(string str)
         {
             var sb = new StringBuilder();
             var (next, tail) = NextSequence(str);

@@ -3,7 +3,7 @@ using sayit;
 
 namespace Tests
 {
-    public class Tests
+    public class Tests : LookAndSay
     {
         [Test]
         public void CanFindConsecutiveDigitsInEmptyString()
