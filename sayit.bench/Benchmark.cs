@@ -8,7 +8,7 @@ namespace sayit.bench
     [MemoryDiagnoser]
     public class Benchmark
     {
-        [Benchmark(Baseline =true)]
+        [Benchmark(Baseline = true)]
         public void SayWithStrings()
         {
             LookAndSay.Say(1, 30);
