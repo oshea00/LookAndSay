@@ -23,6 +23,7 @@ allowing existing code to take advantage very easily of this new type with minim
 the tests for both these solutions are identical to each other. 
 
 Running the tests of both solutions shows a large time savings:
+
 !["Test Runner Summary"](https://raw.githubusercontent.com/oshea00/LookAndSay/master/images/TestRunnerTimes.png)
 
 But knowing exactly how the two solutions differ in terms of time and space was made a lot easier by the use of a cool
