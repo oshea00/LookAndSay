@@ -3,7 +3,7 @@ using sayit;
 
 namespace Tests
 {
-    public class Tests : LookAndSay
+    public class TestsSpan : LookAndSaySpan
     {
         [Test]
         public void CanFindConsecutiveDigitsInEmptyString()
@@ -42,10 +42,10 @@ namespace Tests
             Assert.AreEqual("132113213221133112132123222119", Say(9, 11));
         }
 
-        [Test, Explicit]
+        [Test]
         public void CanExploreLargeN()
         {
-            var bigN = Say(1, 50);  // Takes 4 minutes!!
+            var bigN = Say(1, 50); // 60 takes 4 seconds compared to 351ms...
             Assert.AreEqual(894810, bigN.Length);
         }
     }

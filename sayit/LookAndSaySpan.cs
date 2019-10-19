@@ -3,11 +3,11 @@ using System.Text;
 
 namespace sayit
 {
-    public class LookAndSay
+    public class LookAndSaySpan
     {
-        protected static (int,char) NextSequence(string str)
+        protected static (int, char) NextSequence(ReadOnlySpan<char> str)
         {
-            if (string.IsNullOrEmpty(str))
+            if (str.IsEmpty)
                 return (0,'\0');
             var lastChar = str[0];
             var count = 0;
@@ -18,10 +18,10 @@ namespace sayit
                 else
                     break;
             }
-            return (count, lastChar); 
+            return (count,lastChar); 
         }
 
-        protected static string ExpandSequence(string str)
+        protected static string ExpandSequence(ReadOnlySpan<char> str)
         {
             var sb = new StringBuilder();
             var next = 0;
@@ -29,7 +29,7 @@ namespace sayit
             while (count != 0)
             {
                 sb.Append($"{count}{ch}");
-                (count, ch) = NextSequence(str.Substring(next += count));
+                (count, ch) = NextSequence(str.Slice(next+=count));
             }
             return sb.ToString();
         }
