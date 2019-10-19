@@ -5,6 +5,7 @@ using System.Text;
 
 namespace sayit.bench
 {
+    [MemoryDiagnoser]
     public class Benchmark
     {
         [Benchmark(Baseline =true)]

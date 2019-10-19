@@ -45,7 +45,7 @@ namespace Tests
         [Test]
         public void CanExploreLargeN()
         {
-            var bigN = Say(1, 50); // 60 takes 4 seconds compared to 351ms...
+            var bigN = Say(1, 50); // 60 takes 4 seconds compared to 350ms...
             Assert.AreEqual(894810, bigN.Length);
         }
     }
