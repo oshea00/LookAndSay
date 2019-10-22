@@ -42,7 +42,6 @@ namespace Tests
             Assert.AreEqual("132113213221133112132123222119", Say(9, 11));
         }
 
-        [Test, Explicit]
         public void CanExploreLargeN()
         {
             var bigN = Say(1, 50);  // Takes 4 minutes!!

@@ -9,16 +9,16 @@ namespace sayit.bench
     [MemoryDiagnoser]
     public class Benchmark
     {
-        [Benchmark(Baseline = true)]
-        public void SayWithStrings()
-        {
-            LookAndSay.Say(1, 30);
-        }
+        //[Benchmark(Baseline = true)]
+        //public void SayWithStrings()
+        //{
+        //    LookAndSay.Say(1, 30);
+        //}
 
         [Benchmark]
         public void SayWithSpan()
         {
-            LookAndSaySpan.Say(1, 30);
+            LookAndSaySpan.Say(1, 60);
         }
 
         [Benchmark]
