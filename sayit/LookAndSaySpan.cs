@@ -23,8 +23,8 @@ namespace sayit
 
         protected static string ExpandSequence(ReadOnlySpan<char> str)
         {
-            var sb = new StringBuilder();
-            var next = 0;
+            var sb = new StringBuilder(1000);
+            var next = 0; 
             var (count, ch) = NextSequence(str);
             while (count != 0)
             {

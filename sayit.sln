@@ -7,12 +7,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sayit", "sayit\sayit.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sayit.test", "sayit.test\sayit.test.csproj", "{924B3335-F88D-4010-86E4-519EA5D7E72E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sayit.bench", "sayit.bench\sayit.bench.csproj", "{F2F517AA-9F9B-4BA8-9019-10675D2E913E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sayit.bench", "sayit.bench\sayit.bench.csproj", "{F2F517AA-9F9B-4BA8-9019-10675D2E913E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1D1A7806-7DB8-42DB-9A82-8FBC1DAF3F81}"
 	ProjectSection(SolutionItems) = preProject
 		readme.md = readme.md
 	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LookAndSee.Core", "..\LookAndSee\LookAndSee.Core\LookAndSee.Core.csproj", "{C957A950-5310-47A5-A898-E184F9837BD9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -60,6 +62,18 @@ Global
 		{F2F517AA-9F9B-4BA8-9019-10675D2E913E}.Release|x64.Build.0 = Release|Any CPU
 		{F2F517AA-9F9B-4BA8-9019-10675D2E913E}.Release|x86.ActiveCfg = Release|Any CPU
 		{F2F517AA-9F9B-4BA8-9019-10675D2E913E}.Release|x86.Build.0 = Release|Any CPU
+		{C957A950-5310-47A5-A898-E184F9837BD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C957A950-5310-47A5-A898-E184F9837BD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C957A950-5310-47A5-A898-E184F9837BD9}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C957A950-5310-47A5-A898-E184F9837BD9}.Debug|x64.Build.0 = Debug|Any CPU
+		{C957A950-5310-47A5-A898-E184F9837BD9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C957A950-5310-47A5-A898-E184F9837BD9}.Debug|x86.Build.0 = Debug|Any CPU
+		{C957A950-5310-47A5-A898-E184F9837BD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C957A950-5310-47A5-A898-E184F9837BD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C957A950-5310-47A5-A898-E184F9837BD9}.Release|x64.ActiveCfg = Release|Any CPU
+		{C957A950-5310-47A5-A898-E184F9837BD9}.Release|x64.Build.0 = Release|Any CPU
+		{C957A950-5310-47A5-A898-E184F9837BD9}.Release|x86.ActiveCfg = Release|Any CPU
+		{C957A950-5310-47A5-A898-E184F9837BD9}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
