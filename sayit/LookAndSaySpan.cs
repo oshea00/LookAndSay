@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Text;
 
 namespace sayit
@@ -21,27 +22,28 @@ namespace sayit
             return (count,lastChar); 
         }
 
-        protected static string ExpandSequence(ReadOnlySpan<char> str)
+        protected static char[] ExpandSequence(ReadOnlySpan<char> str)
         {
-            var sb = new StringBuilder(1000);
+            var cb = new List<char>(10000);
             var next = 0; 
             var (count, ch) = NextSequence(str);
             while (count != 0)
             {
-                sb.Append($"{count}{ch}");
+                cb.Add(((char)('0' + count)));
+                cb.Add(ch);
                 (count, ch) = NextSequence(str.Slice(next+=count));
             }
-            return sb.ToString();
+            return cb.ToArray();
         }
 
         public static string Say(int startDigit, int nthTerm)
         {
-            var sequence = $"{startDigit}";
+            var sequence = new[] { ((char)('0' + startDigit)) };
             for (var i=1; i < nthTerm; i++)
             {
                 sequence = ExpandSequence(sequence);
             }
-            return sequence;
+            return new string(sequence);
         }
     }
     

@@ -15,19 +15,19 @@ namespace sayit.bench
         //    LookAndSay.Say(1, 30);
         //}
 
-        [Benchmark]
+        [Benchmark(Baseline = true)]
         public void SayWithSpan()
         {
             LookAndSaySpan.Say(1, 60);
         }
 
-        [Benchmark]
-        public void Bryans()
-        {
-            var generator = new Generator();
-            // Act
-            var result = generator.Next(30);
-            // Assert
-        }
+        //[Benchmark]
+        //public void Bryans()
+        //{
+        //    var generator = new Generator();
+        //    // Act
+        //    var result = generator.Next(30);
+        //    // Assert
+        //}
     }
 }
