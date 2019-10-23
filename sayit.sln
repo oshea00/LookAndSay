@@ -16,6 +16,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LookAndSee.Core", "..\LookAndSee\LookAndSee.Core\LookAndSee.Core.csproj", "{C957A950-5310-47A5-A898-E184F9837BD9}"
 EndProject
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Katas.LookAndSay", "..\Katas.LookAndSay\Katas.LookAndSay\Katas.LookAndSay.fsproj", "{66B92150-3EF4-43D6-90C9-9A9BD5CF3B22}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -74,6 +76,18 @@ Global
 		{C957A950-5310-47A5-A898-E184F9837BD9}.Release|x64.Build.0 = Release|Any CPU
 		{C957A950-5310-47A5-A898-E184F9837BD9}.Release|x86.ActiveCfg = Release|Any CPU
 		{C957A950-5310-47A5-A898-E184F9837BD9}.Release|x86.Build.0 = Release|Any CPU
+		{66B92150-3EF4-43D6-90C9-9A9BD5CF3B22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66B92150-3EF4-43D6-90C9-9A9BD5CF3B22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66B92150-3EF4-43D6-90C9-9A9BD5CF3B22}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{66B92150-3EF4-43D6-90C9-9A9BD5CF3B22}.Debug|x64.Build.0 = Debug|Any CPU
+		{66B92150-3EF4-43D6-90C9-9A9BD5CF3B22}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{66B92150-3EF4-43D6-90C9-9A9BD5CF3B22}.Debug|x86.Build.0 = Debug|Any CPU
+		{66B92150-3EF4-43D6-90C9-9A9BD5CF3B22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66B92150-3EF4-43D6-90C9-9A9BD5CF3B22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66B92150-3EF4-43D6-90C9-9A9BD5CF3B22}.Release|x64.ActiveCfg = Release|Any CPU
+		{66B92150-3EF4-43D6-90C9-9A9BD5CF3B22}.Release|x64.Build.0 = Release|Any CPU
+		{66B92150-3EF4-43D6-90C9-9A9BD5CF3B22}.Release|x86.ActiveCfg = Release|Any CPU
+		{66B92150-3EF4-43D6-90C9-9A9BD5CF3B22}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -10,6 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Katas.LookAndSay\Katas.LookAndSay\Katas.LookAndSay.fsproj" />
     <ProjectReference Include="..\..\LookAndSee\LookAndSee.Core\LookAndSee.Core.csproj" />
     <ProjectReference Include="..\sayit\sayit.csproj" />
   </ItemGroup>
